@@ -27,20 +27,7 @@ const BookmarkPokemon = (props)=>{
    }
 
    if(data.length!= 0){
-     if(location.state.bookmarkMessage){
-        return(
-            <div>
-                 <div style={{padding: "90px",display: "flex", justifyContent: "center"}}>
-                    <h6 color="red">{location.state.bookmarkMessage}</h6>
-                    <span>&nbsp; &nbsp; &nbsp;</span>
-                    <button type="button" className="btn btn-info" onClick={()=>{
-                        history.push('/')
-                    }}>Home</button>
-                 </div>
-            </div>
-        )
-     }
-    else{
+       
     return(
         <div>
             {console.log('bookmark data', bookmarkdata)}
@@ -81,7 +68,6 @@ const BookmarkPokemon = (props)=>{
             </div>
         </div>
        )
-    } 
    }
    else if(data.length == 0){
     const message = 'No Bookmarks added!'
