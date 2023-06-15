@@ -1,5 +1,31 @@
 # PokemonApp
 PokemonApp React project as part of assignment
+# Screenshots
+**Home Page**
+
+![image](https://github.com/Ankhi12/PokemonApp/assets/124775002/a9723f1a-9a2f-47b1-9fb8-6bba3e3932ff)
+
+
+**Search Page**
+
+![image](https://github.com/Ankhi12/PokemonApp/assets/124775002/44f8e226-4c29-4f2c-9056-75d3457dddda)
+
+
+**Display Detail Page**
+
+![image](https://github.com/Ankhi12/PokemonApp/assets/124775002/32ffd0ae-8cd6-4e72-952c-778cd4a22e1d)
+
+
+**Bookmark Page**
+
+![image](https://github.com/Ankhi12/PokemonApp/assets/124775002/0f93e9dc-e3bd-4b12-aed5-5295f0cb6523)
+
+
+**when no data on Bookmark page**
+
+![image](https://github.com/Ankhi12/PokemonApp/assets/124775002/ff2480e6-55f1-4592-a577-af7609433aac)
+
+
 
 # Getting Started with Create React App
 
