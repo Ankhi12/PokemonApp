@@ -6,6 +6,13 @@ PokemonApp React project as part of assignment
 ![image](https://github.com/Ankhi12/PokemonApp/assets/124775002/a9723f1a-9a2f-47b1-9fb8-6bba3e3932ff)
 
 
+
+**Filter data**
+
+![image](https://github.com/Ankhi12/PokemonApp/assets/124775002/5a23ad06-2207-49c2-b4d6-0c80a0bb480f)
+
+
+
 **Search Page**
 
 ![image](https://github.com/Ankhi12/PokemonApp/assets/124775002/44f8e226-4c29-4f2c-9056-75d3457dddda)
