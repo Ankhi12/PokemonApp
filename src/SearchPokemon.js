@@ -58,17 +58,17 @@ const SearchPokemon = (props)=>{
                }
             })       
         }
-        else{
-            setErrorMessage('No data found!')
-        }
     }, [pokemonURL])
+    if(isLoadingSearch){
+        return (
+            <h1 style={{padding: "200px", display: 'flex'}}>{message}</h1>
+        )
+    }
     return(
         <>
-        {isLoadingSearch && <h1>{message}</h1>}
-        {message && <h1>{message}</h1>}
-        {errorMessage && <h1>{errorMessage}</h1>}
             <div>
             <div style={{display: "flex", padding: "150px", justifyContent: "center"}}>
+                 {errorMessage && <h3>{errorMessage}</h3>}
                  <h5 className='display-5'>Search Your</h5><br/>
                  <h2 className='display-2'>Favourite Pokemon</h2>
              </div>
